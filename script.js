@@ -23,5 +23,5 @@ let months =["January " ,
 // document.getElementById("currentdate").textContent= fulldate;
 
 let thisDocument  = new Date (document.lastModified) ;
-document.getElementById("showDate").textContent = thisDocument;
+document.getElementById("showDate").innerHTML = thisDocument;
 
