@@ -1,0 +1,48 @@
+body {
+    font-family: 'Abhaya Libre', serif;
+    padding: 5px;
+}
+
+.card {
+    width: 700px;
+    color: #333;
+}
+
+img {
+    top: 50px;
+    height: 173px;
+    z-index: 2;
+    left: 550px;
+    top: 50px;
+    position: absolute;
+}
+
+h1 {
+    padding: 15px 0;
+    text-align: center;
+    color: #ffff;
+    font-size: 30px;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+}
+
+.card-header {
+    background-color: #51b9c2;
+    height: 70px;
+}
+
+.card-footer {
+    background-color: #51b9c2;
+    height: 60px;
+    text-align: center;
+    padding: 15px 0;
+    color: #ffff;
+    font-size: 15px;
+    font-weight:600 ;
+}
+
+.card-body {
+    color: #333;
+}
