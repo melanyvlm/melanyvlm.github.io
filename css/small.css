@@ -1,5 +1,4 @@
 body {
-    font-family: 'Abhaya Libre', serif;
     color: #333;
     margin-top: 3rem;
 }
@@ -27,6 +26,15 @@ footer {
 header,
 footer {
     text-align: center;
+}
+
+h1,
+h2 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+ul,li{
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
