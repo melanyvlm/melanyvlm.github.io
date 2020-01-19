@@ -1,0 +1,54 @@
+body{
+    padding:  5rem 0;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+}
+
+main section {
+    border: 1px solid #4d4d4d;
+    margin: 0.5em;
+    padding: 0 1rem;
+    background-color: orangered;
+
+}
+picture{
+    margin: 0 auto;
+}
+section:nth-child(2) {
+    display: none;
+    margin: 0.5rem;
+}
+
+@media only screen and (min-width : 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    section:nth-child(2) {
+        display: block;
+    }
+    /* section:nth-child(3) {
+    grid-column: span 2;
+    } */
+
+    /* section:nth-child(3) */
+    /* article:ntn-child(3) */
+}
+
+
+
+@media only screen and (min-width : 66em) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    section:ntn-child(3) {
+        grid-column: span 1;
+    }
+}
