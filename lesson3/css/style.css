@@ -98,11 +98,6 @@ main article {
     background-color: #eee;
 }
 
-main picture {
-    width: 100%;
-    /* margin: 0.5rem; */
-}
-
 .info img {
     width: 50px;
 
@@ -133,7 +128,10 @@ footer {
         width: 500px;
         margin: 0 auto;
     }
-
+    .target-audience img {
+        width: 300px;
+        margin: 0 auto;
+    }
     /* Grid *********************/
     nav ul {
         display: grid;
