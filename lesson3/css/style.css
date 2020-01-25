@@ -71,10 +71,7 @@ nav a:hover {
     color: #ffc938;
 }
 
-.color-scheme img {
-    width: 500px;
-    margin: 0 auto;
-}
+
 
 .typography .playfair{
     font-family: 'Playfair Display', serif;
@@ -102,15 +99,17 @@ main article {
 }
 
 main picture {
-    display: none;
-    margin: 0.5rem;
+    width: 100%;
+    /* margin: 0.5rem; */
 }
 
 .info img {
     width: 50px;
 
 }
-
+img{
+    width: 100%;
+}
 
 footer {
     flex: 0 1 100%;
@@ -130,7 +129,10 @@ footer {
     nav ul li {
         flex: 1 1 100%;
     }
-
+    .color-scheme img {
+        width: 500px;
+        margin: 0 auto;
+    }
 
     /* Grid *********************/
     nav ul {
