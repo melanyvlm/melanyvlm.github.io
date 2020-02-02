@@ -9,3 +9,6 @@ hambutton.addEventListener("click", toggleMenu, false);
 function toggleMenu() {
   document.querySelector(".navigation").classList.toggle("responsive");
 }
+
+let thisDocument  = new Date (document.lastModified) ;
+document.getElementById("showDateWeather").innerHTML = thisDocument;
