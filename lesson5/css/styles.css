@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+
+header,
+footer {
+    margin: 0 auto;
+    max-width: 760px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #50C4D2;
+    padding: 1.2em 0;
+    color: #333;
+    font-family: 'Playfair Display', serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+header img {
+    width: 90px;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+h1 {
+    color: #333;
+    padding-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #195E8E;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #195E8E;
+    background-color: white;
+    font-weight: 700;
+}
+
+.active {
+    color: #fff;
+    font-weight: 700;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+
+/* According to Codepen , follow the instructions correctly */
+.responsive li {
+    display: block;
+}
+
+.content-box {
+    margin: 10px auto;
+    display: block;
+    padding: 15px;
+    border: 2px solid #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero {
+    position: relative;
+    margin: 10px auto;
+}
+
+.hero .summary {
+    position: absolute;
+    top: 22px;
+    left: 36px;
+    background-color: #FFC342;
+    border: 0.5px solid #333;
+    padding: 1rem;
+    box-shadow: 0 0 30px #333;
+    opacity: .8;
+    color: #333;
+    font-weight: 700;
+}
+
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+
+.forecast{
+    display:none;
+}
+
+/* Media Query for Medium+ */
+@media only screen and (min-width: 32.5em) {
+    .navigation {
+        display: flex;
+
+    }
+
+    .navigation li {
+        display: block;
+        /* needed because of state in small view */
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: white;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .hero img {
+        width: 760px;
+        height: 560px;
+    }
+    .forecast{
+        display: block;
+    }
+/* Forecast */
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding: 2em 0;
+}
+
+.col {
+    flex: 1 1 100%;
+    border: 0.2px solid #333;
+    background-color: #195E8E;
+    font-size: 15px;
+    text-align: center;
+}
+
+.label-day {
+    display: block;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #333;
+    background-color: #fff;
+}
+.data {
+	display: block;
+	padding: 0 5px 5px;
+}
+.forecast img {
+    width: 80px;
+    height: auto;
+    padding: 1em 0;
+}
+}
