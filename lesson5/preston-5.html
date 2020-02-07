@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Stay The Weather</title>
 </head>
 
@@ -21,14 +22,14 @@
         </div>
     </header>
     <nav>
-        <ul class="navigation">
-            <li><a class="ham" href="#">&#9776; Menu</a></li>
+        <ul class="navigation" id="naviBtns">
+            <li><a href="#" class="btn">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="preston-5.html" class="active">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="preston-5.html" class="active btn">Preston</a></li>
+            <li><a href="#" class="btn">Soda Springs </a></li>
+            <li><a href="#" class="btn">Fish Haven</a></li>
+            <li><a href="#" class="btn">Storm Center</a></li>
+            <li><a href="#" class="btn">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -79,13 +80,50 @@
             </section>
         </div>
 
-        <article class="">
+        <article>
+            <img alt="earth"
+                src="https://user-images.githubusercontent.com/45083232/73998654-52861c00-4930-11ea-9970-f3f7fb728bc4.jpg" />
+            <h3>We can save the Earth. Here's how</h3>
+            <p>
+                We hear a lot about how terrible the world is today.
+                Greenhouse gas emissions are rising, scientists’ extreme weather predictions appear to be coming true,
+                the air in our cities is becoming dangerous, groundwater is getting scarce, ocean health and fish stocks
+                are declining, forests and natural habitats are being destroyed, plastic in our ocean is out of control
+                and researchers warn that a “biological annihilation” of wildlife means a human-driven sixth mass
+                extinction event is underway.
 
-            
+                Worse still, earth systems scientists warn that, because of our impact on the planet, we are in real –
+                existential – danger. We risk flipping ourselves out of the goldilocks “Holocene” period of predictable
+                warm weather (which has allowed humans to flourish during the last 12,000 years) and into a highly risky
+                “hothouse earth” scenario, with uncontrolled feedback driving faster warming and more droughts and
+                storms.
+            </p>
 
         </article>
 
+        <section class="map">
+            <div class="maps">
+                <img src="https://user-images.githubusercontent.com/45083232/74000327-a8a98e00-4935-11ea-995d-ab6d3e757814.png"
+                    alt="map" class="map-img" />
+            </div>
+            <div class="weather">
+                <h3>Stay The Weather</h3>
+                <span class="direction">30 N 1st E</span>
+                <p>Lima , Peru </p>
 
+                <div class="direction">
+                    <p> <i class="fa fa-phone"></i> 98949845</p>
+                    <a href="mailto:lala@hotmail.com"><i class="fa fa-envelope" style="font-size:36px"></i>
+                        lala@hotmail.com </a>
+                </div>
+                <div class="social-media ">
+                    <img src="images/facebook.png" alt="facebook" class="social" />
+                    <img src="images/twitter.png" alt="twitter" class="social" />
+                    <img src="images/pinterest.png" alt="pinterest" class="social" />
+                </div>
+            </div>
+
+        </section>
     </main>
     <footer>
         <p> © 2020 | The Weather Site</p>
