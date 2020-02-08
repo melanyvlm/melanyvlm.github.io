@@ -14,6 +14,11 @@
 </head>
 
 <body>
+    <div class="col">
+        <h3 id="banner">
+            Saturday = Preston Pancakes in the Park! 9:00am Saturday at the city park pavillion
+        </h3>
+    </div>
     <header>
         <img alt="weather logo" src="./images/rain.svg" />
         <div>
@@ -23,7 +28,7 @@
     </header>
     <nav>
         <ul class="navigation" id="naviBtns">
-            <li><a href="#" class="btn">&#9776; Menu</a></li>
+            <li><a href="#" class="btn ham">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="preston-5.html" class="active btn">Preston</a></li>
             <li><a href="#" class="btn">Soda Springs </a></li>
@@ -35,45 +40,46 @@
     <main>
         <h2>Lima Peru</h2>
         <div class="hero">
-            <img src="images/lima-1.jpg" />
+            <img src="images/lima-1.jpg" alt="lima"/>
             <section class="summary">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="weather">Sunny</span></p>
                 <p>High: <span id="high">25 °C</span></p>
                 <p>Wind Chill: <span id="chill">°C </span></p>
-                <p>Humidity <span id="chill">74%</span></p>
-                <p>Wind Speed <span id="chill">16 km/h</span></p>
+                <p>Humidity <span id="hum">74%</span></p>
+                <p>Wind Speed <span id="wind">16 km/h</span></p>
             </section>
         </div>
         <div class="forecast">
-            <h2>5 day forecast</h2>
+            <p>5 day forecast</p>
             <section class="days flex">
+             
                 <div class="col">
                     <span class="label-day">Mon</span>
-                    <img
+                    <img alt="sun"
                         src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
                     <span class="data">23° C</span>
                 </div>
                 <div class="col">
                     <span class="label-day">Tues</span>
-                    <img
+                    <img alt="sun"
                         src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
                     <span class="data">25° C</span>
                 </div>
                 <div class="col">
                     <span class="label-day">Wed</span>
-                    <img
+                    <img alt="sun"
                         src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
                     <span class="data">25° C</span> </div>
                 <div class="col">
                     <span class="label-day">Thurs</span>
-                    <img
+                    <img alt="sun"
                         src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
                     <span class="data">20° C</span>
                 </div>
                 <div class="col">
                     <span class="label-day">Fri</span>
-                    <img
+                    <img alt="sun"
                         src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
                     <span class="data">21° C</span>
                 </div>
@@ -127,9 +133,9 @@
     </main>
     <footer>
         <p> © 2020 | The Weather Site</p>
-        <p>Last Updated : <span id="DateWeather"></span></p>
+        <p>Last Updated : <span id="dateWeather"></span></p>
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="./js/scripty.js"></script>
 </body>
 
 </html>

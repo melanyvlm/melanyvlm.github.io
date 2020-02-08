@@ -11,6 +11,4 @@ function toggleMenu() {
 }
 
 let thisDocument  = new Date (document.lastModified) ;
-document.getElementById("DateWeather").innerHTML = thisDocument;
-
-
+document.getElementById("dateWeather").innerHTML = thisDocument;
