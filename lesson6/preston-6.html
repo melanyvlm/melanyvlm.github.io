@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Stay The Weather</title>
+</head>
+
+<body>
+    <div class="col">
+        <h3 id="banner">
+            Saturday = Preston Pancakes in the Park! 9:00am Saturday at the city park pavillion
+        </h3>
+    </div>
+    <header>
+        <img alt="weather logo" src="./images/rain.svg" />
+        <div>
+            <h1>Stay The Weather</h1>
+            <h2>Let you lead by the Wind </h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation" id="naviBtns">
+            <li><a href="#" class="btn ham">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-6.html" class=" active btn">Preston</a></li>
+            <li><a href="#" class="btn">Soda Springs </a></li>
+            <li><a href="#" class="btn">Fish Haven</a></li>
+            <li><a href="#" class="btn">Storm Center</a></li>
+            <li><a href="#" class="btn">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Lima Peru</h2>
+        <div class="hero">
+            <!-- <img src="images/lima-1.jpg" alt="lima"/> -->
+            <picture>
+                <source
+                  media="(max-width: 32.5em)"
+                  srcset="./images/small-cit230_image_franklinOriginal.jpeg"
+                />
+                <source
+                  media="(max-width: 60em)"
+                  srcset="./images/medium-cit230_image_franklinOriginal.jpeg"
+                />
+                <img
+                  class="main-img"
+                  src="./images/large-cit230_image_franklinOriginal.jpeg"
+                  alt="weather background"
+                />
+              </picture>
+ 
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="weather">Sunny</span></p>
+                <p>High: <span id="highTemp">54 </span>°F</p>
+                <p>Wind Chill: <span id="windChill"></span>°F</p>
+                <p>Humidity <span id="hum">95</span>%</p>
+                <p>Wind Speed <span id="windSpeed">12</span>mph</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <p>5 day forecast</p>
+            <section class="days flex">
+             
+                <div class="col">
+                    <span class="label-day">Mon</span>
+                    <img alt="sun"
+                        src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
+                    <span class="data">23° C</span>
+                </div>
+                <div class="col">
+                    <span class="label-day">Tues</span>
+                    <img alt="sun"
+                        src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
+                    <span class="data">25° C</span>
+                </div>
+                <div class="col">
+                    <span class="label-day">Wed</span>
+                    <img alt="sun"
+                        src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
+                    <span class="data">25° C</span> </div>
+                <div class="col">
+                    <span class="label-day">Thurs</span>
+                    <img alt="sun"
+                        src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
+                    <span class="data">20° C</span>
+                </div>
+                <div class="col">
+                    <span class="label-day">Fri</span>
+                    <img alt="sun"
+                        src="https://user-images.githubusercontent.com/45083232/73994139-85c1ae80-4922-11ea-9010-f068e45ab1b6.png" />
+                    <span class="data">21° C</span>
+                </div>
+            </section>
+        </div>
+
+        <article>
+            <img alt="earth"
+                src="https://user-images.githubusercontent.com/45083232/73998654-52861c00-4930-11ea-9970-f3f7fb728bc4.jpg" />
+            <h3>We can save the Earth. Here's how</h3>
+            <p>
+                We hear a lot about how terrible the world is today.
+                Greenhouse gas emissions are rising, scientists’ extreme weather predictions appear to be coming true,
+                the air in our cities is becoming dangerous, groundwater is getting scarce, ocean health and fish stocks
+                are declining, forests and natural habitats are being destroyed, plastic in our ocean is out of control
+                and researchers warn that a “biological annihilation” of wildlife means a human-driven sixth mass
+                extinction event is underway.
+
+                Worse still, earth systems scientists warn that, because of our impact on the planet, we are in real –
+                existential – danger. We risk flipping ourselves out of the goldilocks “Holocene” period of predictable
+                warm weather (which has allowed humans to flourish during the last 12,000 years) and into a highly risky
+                “hothouse earth” scenario, with uncontrolled feedback driving faster warming and more droughts and
+                storms.
+            </p>
+
+        </article>
+
+        <section class="map">
+            <div class="maps">
+                <img src="https://user-images.githubusercontent.com/45083232/74000327-a8a98e00-4935-11ea-995d-ab6d3e757814.png"
+                    alt="map" class="map-img" />
+            </div>
+            <div class="weather">
+                <h3>Stay The Weather</h3>
+                <span class="direction">30 N 1st E</span>
+                <p>Lima , Peru </p>
+
+                <div class="direction">
+                    <p> <i class="fa fa-phone"></i> 98949845</p>
+                    <a href="mailto:lala@hotmail.com"><i class="fa fa-envelope" style="font-size:36px"></i>
+                        lala@hotmail.com </a>
+                </div>
+                <div class="social-media ">
+                    <img src="images/facebook.png" alt="facebook" class="social" />
+                    <img src="images/twitter.png" alt="twitter" class="social" />
+                    <img src="images/pinterest.png" alt="pinterest" class="social" />
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p> © 2020 | The Weather Site</p>
+        <p>Last Updated : <span id="dateWeather"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+          google: {
+            families: ['Source Sans Pro', 'Playfair Display']
+          }
+        });
+      </script>
+    <script src="./js/scripty.js"></script>
+    <script src="./js/windchill.js"></script>
+</body>
+
+</html>
