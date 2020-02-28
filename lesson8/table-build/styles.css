@@ -6,6 +6,7 @@ table {
     margin-top: 5em;
     box-shadow: 15px 15px 5px -5px #7fb9c2;
     font-family: 'Ubuntu', 'sans-serif';
+    width: 380px;
 }
 h1{
     text-align: center;
