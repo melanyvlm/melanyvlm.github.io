@@ -4,7 +4,7 @@ body {
 
 header ,footer {
     margin: 0 auto;
-    max-width: 760px;
+    /* max-width: 760px; */
     display: flex;
     text-align: center;
     justify-content: center;

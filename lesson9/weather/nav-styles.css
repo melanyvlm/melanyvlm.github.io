@@ -27,7 +27,7 @@ footer {
 
 main {
     margin: 0 auto;
-    max-width: 760px;
+    /* max-width: 760px; */
 }
 
 header img {
@@ -153,20 +153,6 @@ nav {
     display: none;
 }
 
-article {
-    padding: 2em;
-    background-color: #FFC342;
-    opacity: 0.8;
-    margin-top: 6em;
-}
-
-article img {
-    width: 200px;
-    margin: 0 auto;
-    display: block;
-    height: auto;
-    float: none;
-}
 .direction{
     padding: 0.2em 0;
 }
