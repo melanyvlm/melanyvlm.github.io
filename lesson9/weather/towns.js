@@ -32,7 +32,7 @@ fetch(requestURL)
        p1.textContent =  'Year Founded : ' + towns[i].yearFounded;
        p2.textContent =  'Population : ' + towns[i].currentPopulation;
        p3.textContent =  'Population : ' + towns[i].averageRainfall;
-       image.setAttribute('src', '/cities-img'+ towns[i].photo);
+       image.setAttribute('src', '/cities-img/'+ towns[i].photo);
        image.setAttribute('alt', towns[i].name)
  
           
