@@ -13,8 +13,8 @@ fetch(forecastURL)
 
     for (let i = 0; i < fivedayforecast.length; i++) {
       document.getElementById(`forecast${i + 1}`).textContent = fivedayforecast[i].main.temp;
-      const img = `https://openweathermap.org/img/w/${fivedayforecast[i].weather[0].icon}.png`
-      document.getElementById(`img${i + 1}`).setAttribute('src', img);
+      // const img = `https://openweathermap.org/img/w/${fivedayforecast[i].weather[0].icon}.png`
+      // document.getElementById(`img${i + 1}`).setAttribute('src', img);
       const datetoday = new Date(fivedayforecast[i].dt_txt);
       const day = daysoftheweek[datetoday.getDay()];
       days[i].textContent = day;
