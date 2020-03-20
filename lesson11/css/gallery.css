@@ -1,0 +1,36 @@
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 400px;
+ 
+}
+
+@media only screen and (min-width: 32.5em) {
+    .container {
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        max-width: 1048px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .container {
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1048px;
+    }
+}
+.gallery{
+    padding: 1em;
+}
+.gallery:hover{
+    box-shadow: 0 0 50px #333;
+    padding: 1.2em;
+}
+p{
+    color:#333;
+    font-family: 'Open Sans';
+}
