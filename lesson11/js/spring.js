@@ -1,7 +1,7 @@
-const forecastiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=bf83dc2f9a9872c97095e545db7c21ec&units=imperial";
+const springURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=bf83dc2f9a9872c97095e545db7c21ec&units=imperial";
 
 const daysoftheweek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-fetch(forecastiURL)
+fetch(springURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);

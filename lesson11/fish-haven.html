@@ -21,59 +21,58 @@
         <ul class="navigation" id="naviBtns">
             <li><a href="#" class="btn ham">&#9776; Menu</a></li>
             <li><a href="home.html">Home</a></li>
-            <li><a href="#" class=" active btn">Preston</a></li>
+            <li><a href="preston.html" class=" active btn">Preston</a></li>
             <li><a href="soda-springs.html" class="btn">Soda Springs </a></li>
-            <li><a href="fish-haven.html" class="btn">Fish Haven</a></li>
+            <li><a href="#" class="btn">Fish Haven</a></li>
             <li><a href="storm-center.html" class="btn">Storm Center</a></li>
             <li><a href="gallery.html" class="btn">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Lima Peru</h2>
         <div class="hero">
             <!-- <img src="images/lima-1.jpg" alt="lima"/> -->
             <picture>
                 <source media="(max-width: 32.5em)" srcset="images/small-cit230_image_franklinOriginal.JPEG" />
                 <source media="(max-width: 60em)" srcset="images/medium-cit230_image_franklinOriginal.JPEG" />
-                <img class="main-img" src="images/preston-idaho.png" alt="weather background" />
+                <img class="main-img" src="images/fish-haven-field.jpg" alt="weather background" />
             </picture>
             <section class="summary">
                 <h2>Weather Summary</h2>
-                <p>Currently: <span id="currently"></span></p>
-                <p>High: <span id="highTemp"></span>°F</p>
-                <p>Wind Chill: <span id="windChill"></span>°F</p>
-                <p>Humidity: <span id="hum"></span>%</p>
-                <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+                <p>Currently: <span id="currently-haven"></span></p>
+                <p>High: <span id="highTemp-haven"></span>°F</p>
+                <p>Wind Chill: <span id="windChill-haven"></span>°F</p>
+                <p>Humidity: <span id="hum-haven"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed-haven"></span>mph</p>
             </section>
         </div>
-        <div class="forecast">
+        <div class="forecast-haven">
             <section class="days flex">
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img1" />
-                      
+                    <img alt="sun" id="imgh1" />
+
                     <span class="data" id="forecast1"></span>
                 </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img2" />
-                      
+                    <img alt="sun" id="imgh2" />
+
                     <span class="data" id="forecast2"></span>
                 </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img3"  />
+                    <img alt="sun" id="imgh3" />
                     <span class="data" id="forecast3"></span> </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img4" />
-                      
+                    <img alt="sun" id="imgh4" />
+
                     <span class="data" id="forecast4"></span>
                 </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun"  id="img5" />
-                      
+                    <img alt="sun" id="imgh5" />
+
                     <span class="data" id="forecast5"></span>
                 </div>
             </section>
@@ -82,31 +81,35 @@
         <article>
             <img alt="earth"
                 src="https://user-images.githubusercontent.com/45083232/73998654-52861c00-4930-11ea-9970-f3f7fb728bc4.jpg" />
-            <h3>We can save the Earth. Here's how</h3>
+            <h3>FISH HAVEN, Idaho — </h3>
             <p>
-                We hear a lot about how terrible the world is today.
-                Greenhouse gas emissions are rising, scientists’ extreme weather predictions appear to be coming true,
-                the air in our cities is becoming dangerous, groundwater is getting scarce, ocean health and fish stocks
-                are declining, forests and natural habitats are being destroyed, plastic in our ocean is out of control
-                and researchers warn that a “biological annihilation” of wildlife means a human-driven sixth mass
-                extinction event is underway.
-
-                Worse still, earth systems scientists warn that, because of our impact on the planet, we are in real –
-                existential – danger. We risk flipping ourselves out of the goldilocks “Holocene” period of predictable
-                warm weather (which has allowed humans to flourish during the last 12,000 years) and into a highly risky
-                “hothouse earth” scenario, with uncontrolled feedback driving faster warming and more droughts and
-                storms.
+                It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by
+                high desert mountains and bordered by the shores of a vast natural lake.
+                In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the
+                summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+                But they don't live there. It's different living in Fish Haven.
+                The little town sits just on the Idaho side of U.S. Highway 89 tucked in between Bear Lake's west side
+                and the mountains.
+                It's not technically a city or a town, it's really nothing more than the proverbial wide spot in the
+                road. But people call it a town even though there isn't a city council, just the Bear Lake County
+                Commission that oversees development there.
+                Only 50 to 100 people call it home, depending on the weather.
+                Vic Tilt, co-owner of Gladys' Place, is one of the few year-around residents and said the population
+                drops quickly when things get cold.
+                The winter evacuation isn't much of a worry for Tilt, 60, because his store is the only one around. The
+                nearest other store is in Montpelier, about 45 minutes away.
+                Gladys' Place is also only a few minutes from the Utah border and has become quite a lottery spot. The
+                little store is the third- and fourth-biggest lottery ticket seller in Idaho, selling about 500,000
+                tickets a year.
+                "We've got a whole mall in 1,000 square feet," Tilt said.
             </p>
-
         </article>
 
-
         <section class="upcoming">
-            <div class="listpreston">
+            <div class="list">
                 <h2>Upcoming Events:</h2>
             </div>
         </section>
-
 
         <section class="map">
             <div class="maps">
@@ -146,7 +149,7 @@
     </script>
 
     <script src="js/menu.js"></script>
-    <script src="js/forecast.js"></script>
+    <script src="js/fish-haven.js"></script>
     <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/towns.js"></script>
