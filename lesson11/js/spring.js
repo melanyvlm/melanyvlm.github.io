@@ -7,7 +7,7 @@ fetch(springURL)
     console.log(jsObject);
     const days = document.getElementsByClassName('label-day');
     const fivedayforecast = jsObject.list.filter(x =>
-      x.dt_txt.includes('09:00:00'));
+      x.dt_txt.includes('18:00:00'));
     console.log(fivedayforecast);
 
 
