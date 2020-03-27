@@ -20,12 +20,12 @@
     <nav>
         <ul class="navigation" id="naviBtns">
             <li><a href="#" class="btn ham">&#9776; Menu</a></li>
-            <li><a href="">Home</a></li>
+            <li><a href="home.html">Home</a></li>
             <li><a href="#" class=" active btn">Preston</a></li>
-            <li><a href="" class="btn">Soda Springs </a></li>
-            <li><a href="#" class="btn">Fish Haven</a></li>
-            <li><a href="" class="btn">Storm Center</a></li>
-            <li><a href="" class="btn">Gallery</a></li>
+            <li><a href="soda-springs.html" class="btn">Soda Springs </a></li>
+            <li><a href="fish-haven.html" class="btn">Fish Haven</a></li>
+            <li><a href="storm-center.html" class="btn">Storm Center</a></li>
+            <li><a href="gallery.html" class="btn">Gallery</a></li>
         </ul>
     </nav>
     <main>
@@ -35,7 +35,7 @@
             <picture>
                 <source media="(max-width: 32.5em)" srcset="images/small-cit230_image_franklinOriginal.JPEG" />
                 <source media="(max-width: 60em)" srcset="images/medium-cit230_image_franklinOriginal.JPEG" />
-                <img class="main-img" src="images/large-cit230_image_franklinOriginal.JPEG" alt="weather background" />
+                <img class="main-img" src="images/preston-idaho.png" alt="weather background" />
             </picture>
             <section class="summary">
                 <h2>Weather Summary</h2>
@@ -50,23 +50,23 @@
             <section class="days flex">
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img1" />
+                    <img alt="weather" id="img1" />
                       
                     <span class="data" id="forecast1"></span>
                 </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img2" />
+                    <img alt="weather" id="img2" />
                       
                     <span class="data" id="forecast2"></span>
                 </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img3"  />
+                    <img alt="weather" id="img3"  />
                     <span class="data" id="forecast3"></span> </div>
                 <div class="col">
                     <span class="label-day"></span>
-                    <img alt="sun" id="img4" />
+                    <img alt="weather" id="img4" />
                       
                     <span class="data" id="forecast4"></span>
                 </div>
@@ -99,6 +99,14 @@
             </p>
 
         </article>
+
+
+        <section class="upcoming">
+            <div class="listpreston">
+                <h2>Upcoming Events:</h2>
+            </div>
+        </section>
+
 
         <section class="map">
             <div class="maps">
@@ -141,6 +149,7 @@
     <script src="js/forecast.js"></script>
     <script src="js/weatherapi.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/towns.js"></script>
 </body>
 
 </html>

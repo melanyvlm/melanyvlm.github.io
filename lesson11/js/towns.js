@@ -34,8 +34,6 @@ fetch(requestURL)
        p3.textContent =  'Population : ' + towns[i].averageRainfall;
        image.setAttribute('src', 'cities-img/'+ towns[i].photo);
        image.setAttribute('alt', towns[i].name)
- 
-          
 
    card.appendChild(contain);
   //  card.appendChild(contain2);
@@ -46,18 +44,72 @@ fetch(requestURL)
       contain.appendChild(p3);
         card.appendChild(image);
 
-
-
-       
-
         document.querySelector('div.cards').appendChild(card); 
   }
       }
     // temporary checking for valid response and data parsing
   });
 
+  const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+  fetch(eventsURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      const towns = jsonObject['towns'];
+      console.table(jsonObject); 
+      for (let i = 0; i < towns.length; i++) {
+          if (towns[i].name == "Fish Haven") {
+              let event = document.createElement('section');
+              for (let e = 0; e < towns[i].events.length; e++) {
+                  let p = document.createElement('p');
+                  p.textContent = towns[i].events[e];
+                  event.appendChild(p);
+              }
+              document.querySelector('div.list').appendChild(event);
+          }
+      }
+  });
 
+  const eventsprestonURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+  fetch(eventsprestonURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      const towns = jsonObject['towns'];
+      console.table(jsonObject); 
+      for (let i = 0; i < towns.length; i++) {
+          if (towns[i].name == "Preston") {
+              let event = document.createElement('section');
+              for (let e = 0; e < towns[i].events.length; e++) {
+                  let p = document.createElement('p');
+                  p.textContent = towns[i].events[e];
+                  event.appendChild(p);
+              }
+              document.querySelector('div.listpreston').appendChild(event);
+          }
+      }
+  });
 
-
-
-
+  
+  const eventsspringURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+  fetch(eventsspringURL)
+    .then(function (response) {
+      return response.json();
+    })
+    .then(function (jsonObject) {
+      const towns = jsonObject['towns'];
+      console.table(jsonObject); 
+      for (let i = 0; i < towns.length; i++) {
+          if (towns[i].name == "Preston") {
+              let event = document.createElement('section');
+              for (let e = 0; e < towns[i].events.length; e++) {
+                  let p = document.createElement('p');
+                  p.textContent = towns[i].events[e];
+                  event.appendChild(p);
+              }
+              document.querySelector('div.listspring').appendChild(event);
+          }
+      }
+  });

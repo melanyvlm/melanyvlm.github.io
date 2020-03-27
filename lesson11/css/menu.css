@@ -10,6 +10,26 @@ body {
     display: block;
   }
   
+  
+  .upcoming {
+    padding: 2em;
+    background-color: #333;
+    margin: 2em 0;
+    color: #ffff;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 0 30px #333;
+}
+
+.list , .listpreston , .listspring{
+    padding: 1em;
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+
 
 
 header,
