@@ -25,10 +25,10 @@ fetch(requestURL)
        titles.textContent =  riverguides[i].name + " " + riverguides[i].lastname;;
        let image = document.createElement('img');
        contain.setAttribute('class' , 'guide-card');
-       p1.textContent =  'certification level : ' + riverguides[i].yearFounded;
-       p2.textContent =  'years of experience: ' + riverguides[i].currentPopulation;
-       p3.textContent =  'email address : ' + riverguides[i].averageRainfall;
-       p4.textContent =  ' biography : ' + riverguides[i].averageRainfall;
+       p1.textContent =  'Certification Level : ' + riverguides[i].certification;
+       p2.textContent =  'Years of Experience: ' + riverguides[i].yearsexp;
+       p3.textContent =  'Email Address : ' + riverguides[i].email;
+       p4.textContent =  ' Biography : ' + " " + riverguides[i].bio;
        image.setAttribute('src', riverguides[i].image);
        image.setAttribute('alt', riverguides[i].name)
 

@@ -1,3 +1,31 @@
+.guides {
+    padding: 2em 0;
+    color:white;
+}
+.guide-card {
+    background-color: white;
+    padding: 2em;
+    color: #00458A;
+    height: 340px;
+    margin: 1em 0;
+    border: 1px solid #00458A;
+}
+h3 {
+    text-align: center;
+    font-weight: 600;
+}
+.guides img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #3fd2c7;
+    margin-bottom: 1em;
+}
+.guides article{
+    background-color: #00458b;
+    margin: 0 1em;
+}
 @media only screen and (min-width: 60em) {
     .guides {
         display: grid;
