@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Salmon River Adventures</title>
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/home.css">
+</head>
+
+<body>
+    <header>
+        <img alt="salmor river logo" src="./images/river.svg" />
+        <div>
+            <h1>Salmon River Adventures </h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation" id="naviBtns">
+            <li><a href="#" class="btn ham">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston.html" class=" active btn">Adventure/Trip Activities</a></li>
+            <li><a href="river-guide.html" class="btn">River Guide </a></li>
+            <li><a href="contact.html" class="btn">Contact</a></li>
+            <li><a href="storm-center.html" class="btn">Reservation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="marquee container">
+            <picture>
+                <img src="./images/salmon-header.jpg" alt="salmon adventures" class="marquee-img">
+            </picture>
+        </section>
+        <section class="fact container">
+            <div class="river-called">
+                <h2>Did you know why is the salmon river called the River of No Return?</h2>
+                <p>The Main Salmon River was called “The River of No Return” back in the early days when boats could
+                    navigate down the river, but could not get back up through the fast water and numerous rapids. The
+                    romantic name lives on today, even though jet boats can navigate upstream.</p>
+            </div>
+            <div class="weather">
+              
+                <section class="summary">
+                    <h2>Weather Summary</h2>
+                    <p>Currently: <span id="currently-haven"></span></p>
+                    <p>High: <span id="highTemp-haven"></span>°F</p>
+                    <p>Wind Chill: <span id="windChill-haven"></span>°F</p>
+                    <p>Humidity: <span id="hum-haven"></span>%</p>
+                    <p>Wind Speed: <span id="windSpeed-haven"></span>mph</p>
+                </section>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            Every day , All day at <a href="https://goo.gl/maps/KUhX5FWxFvBgkfof6">1000 S Main St., Riggins, ID</a>
+
+        </p>
+
+    </footer>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+h2 {
+    text-align: center;
+    color: #333333;
+    padding-top: 1em;
+}
+label{
+    color: #333333;
+    font-weight: 500;
+}
+
+.contact{
+    padding: 1em;
+}
+.form{
+    background-color: #3fd2c7;
+}
+.form-control {
+
+    width: 300px;
+    text-align: left;
+    margin: 0 auto;
+    background-color: #eee;
+    border: 1px solid #07213f;
+    box-shadow: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+.contact-form {
+    padding: 1em 0;
+}
+.iframe{
+    width: 200px!important;
+    height: 200px!important;
+}
+.personal-info{
+    text-align: center;
+}
+
+@media only screen and (min-width: 32.5em) {
+    .form {
+        width: 600px;
+        margin: 0 auto;
+        padding: 2em;
+        margin-top: 2em;
+    }
+    .form-control {
+        width: 100%;
+        margin-top: 1em;
+    }
+    .location{
+        width: 600px;
+        margin: 0 auto;
+        padding: 2em;
+        margin-top: 2em;
+    }
+    .address{
+        display:flex;
+  
+    }
+    .personal-info{
+        padding: 1em;
+        text-align: left;
+    }
+    .iframe{
+        width: 400px;
+        height: 400px;
+    }
+}
