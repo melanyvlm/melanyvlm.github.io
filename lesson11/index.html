@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/nav.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <img alt="weather logo" src="../lesson9/images/rain.svg" />
+        <div>
+            <h1>Stay The Weather</h1>
+            <h2>Let you lead by the Wind </h2>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation" id="naviBtns">
+            <li><a href="#" class="btn ham">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#" class=" active btn">Preston</a></li>
+            <li><a href="" class="btn">Soda Springs </a></li>
+            <li><a href="#" class="btn">Fish Haven</a></li>
+            <li><a href="" class="btn">Storm Center</a></li>
+            <li><a href="gallery.html" class="btn">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Lima Peru</h2>
+        <div class="hero">
+            <!-- <img src="images/lima-1.jpg" alt="lima"/> -->
+            <picture>
+                <source media="(max-width: 32.5em)" srcset="images/small-cit230_image_franklinOriginal.JPEG" />
+                <source media="(max-width: 60em)" srcset="images/medium-cit230_image_franklinOriginal.JPEG" />
+                <img class="main-img" src="images/large-cit230_image_franklinOriginal.JPEG" alt="weather background" />
+            </picture>
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="currently"></span></p>
+                <p>High: <span id="highTemp"></span>°F</p>
+                <p>Wind Chill: <span id="windChill"></span>°F</p>
+                <p>Humidity: <span id="hum"></span>%</p>
+                <p>Wind Speed: <span id="windSpeed"></span>mph</p>
+            </section>
+        </div>
+        <div class="forecast">
+            <section class="days flex">
+                <div class="col">
+                    <span class="label-day"></span>
+                    <img alt="sun" id="img1" />
+                      
+                    <span class="data" id="forecast1"></span>
+                </div>
+                <div class="col">
+                    <span class="label-day"></span>
+                    <img alt="sun" id="img2" />
+                      
+                    <span class="data" id="forecast2"></span>
+                </div>
+                <div class="col">
+                    <span class="label-day"></span>
+                    <img alt="sun" id="img3"  />
+                    <span class="data" id="forecast3"></span> </div>
+                <div class="col">
+                    <span class="label-day"></span>
+                    <img alt="sun" id="img4" />
+                      
+                    <span class="data" id="forecast4"></span>
+                </div>
+                <div class="col">
+                    <span class="label-day"></span>
+                    <img alt="sun"  id="img5" />
+                      
+                    <span class="data" id="forecast5"></span>
+                </div>
+            </section>
+        </div>
+
+        <article>
+            <img alt="earth"
+                src="https://user-images.githubusercontent.com/45083232/73998654-52861c00-4930-11ea-9970-f3f7fb728bc4.jpg" />
+            <h3>We can save the Earth. Here's how</h3>
+            <p>
+                We hear a lot about how terrible the world is today.
+                Greenhouse gas emissions are rising, scientists’ extreme weather predictions appear to be coming true,
+                the air in our cities is becoming dangerous, groundwater is getting scarce, ocean health and fish stocks
+                are declining, forests and natural habitats are being destroyed, plastic in our ocean is out of control
+                and researchers warn that a “biological annihilation” of wildlife means a human-driven sixth mass
+                extinction event is underway.
+
+                Worse still, earth systems scientists warn that, because of our impact on the planet, we are in real –
+                existential – danger. We risk flipping ourselves out of the goldilocks “Holocene” period of predictable
+                warm weather (which has allowed humans to flourish during the last 12,000 years) and into a highly risky
+                “hothouse earth” scenario, with uncontrolled feedback driving faster warming and more droughts and
+                storms.
+            </p>
+
+        </article>
+
+        <section class="map">
+            <div class="maps">
+                <img src="https://user-images.githubusercontent.com/45083232/74000327-a8a98e00-4935-11ea-995d-ab6d3e757814.png"
+                    alt="map" class="map-img" />
+            </div>
+            <div class="weather">
+                <h3>Stay The Weather</h3>
+                <span class="direction">30 N 1st E</span>
+                <p>Lima , Peru </p>
+
+                <div class="direction">
+                    <p> <i class="fa fa-phone"></i> 98949845</p>
+                    <a href="mailto:lala@hotmail.com"><i class="fa fa-envelope" style="font-size:36px"></i>
+                        lala@hotmail.com </a>
+                </div>
+                <div class="social-media ">
+                    <img src="images/facebook.png" alt="facebook" class="social" />
+                    <img src="images/twitter.png" alt="twitter" class="social" />
+                    <img src="images/pinterest.png" alt="pinterest" class="social" />
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p> © 2020 | The Weather Site</p>
+        <p>Last Updated : <span id="dateWeather"></span></p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Source Sans Pro', 'Playfair Display']
+            }
+        });
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/windchill.js"></script>
+</body>
+
+</html>

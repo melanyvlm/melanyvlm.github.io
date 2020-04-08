@@ -1,0 +1,31 @@
+{
+    "guides":[
+    {
+        "name": "Manuel",
+        "lastname":"Suarez",
+        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fwomanguide.jpg?v=1586231880367",
+        "certification": "4",
+        "yearsexp": "5 years",
+        "email": "manuel@salmonriverandadventures.com",
+        "bio": "Manuel has been living in Idaho since forever. Really appasionate in looking for new adventures. If you like extreme sports he's your guy!"
+    },
+    {
+        "name": "Rosemary",
+        "lastname":"Urquiza",
+        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fmaleguide.jpg?v=1586231859204",
+        "certification": "7",
+        "yearsexp": "10 years",
+        "email": "rosemary@salmonriverandadventures.com",
+        "bio": "While starting to change her life she moved to Idaho . She fall in love inmediately and now she does what she likes. She has been working with us since forever and love her "
+    },
+    {
+        "name": "Luther",
+        "lastname":"Drake",
+        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Folderguide.jpg?v=1586231866587",
+        "certification": "8",
+        "yearsexp": "20 years",
+        "email": "luther@salmonriverandadventures.com",
+        "bio": "Since he got an accident that changed his life for good he decided to give it a try and do something different that how he discovered the place and thanks to discipline he could get better and now he's a wonderful guide "
+    }
+]
+}
