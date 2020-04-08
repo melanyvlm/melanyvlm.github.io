@@ -3,7 +3,7 @@
     {
         "name": "Manuel",
         "lastname":"Suarez",
-        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fwomanguide.jpg?v=1586231880367",
+        "image": "https://user-images.githubusercontent.com/45083232/78802999-16992280-7984-11ea-900c-9a83dc7a0a53.png",
         "certification": "4",
         "yearsexp": "5 years",
         "email": "manuel@salmonriverandadventures.com",
@@ -12,7 +12,7 @@
     {
         "name": "Rosemary",
         "lastname":"Urquiza",
-        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Fmaleguide.jpg?v=1586231859204",
+        "image": "https://user-images.githubusercontent.com/45083232/78802861-ec476500-7983-11ea-9fdc-534f85cf727b.png",
         "certification": "7",
         "yearsexp": "10 years",
         "email": "rosemary@salmonriverandadventures.com",
@@ -21,7 +21,7 @@
     {
         "name": "Luther",
         "lastname":"Drake",
-        "image": "https://cdn.glitch.com/ffaa4be0-8e9c-4df1-b809-88534b939059%2Folderguide.jpg?v=1586231866587",
+        "image": "https://user-images.githubusercontent.com/45083232/78802874-f0738280-7983-11ea-95ae-45caca0004e2.png",
         "certification": "8",
         "yearsexp": "20 years",
         "email": "luther@salmonriverandadventures.com",
