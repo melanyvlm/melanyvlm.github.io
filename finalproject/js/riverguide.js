@@ -1,6 +1,6 @@
 
 
-const requestURL = 'https://melanyvlm.github.io/finalproject/riverguides.json';
+const requestURL = 'https://melanyvlm.github.io/finalproject/json/riverguides.json';
 
 fetch(requestURL)
   .then(function (response) {
