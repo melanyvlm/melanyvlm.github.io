@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Salmon River Adventures</title>
+    <link rel="stylesheet" href="./styles/menu.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="styles/reservation.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header>
+        <img alt="salmor river logo" src="./images/river.svg" />
+        <div>
+            <h1>Salmon River Adventures </h1>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation  container" id="naviBtns">
+            <li><a href="#" class="btn ham">&#9776; Menu</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="adventure.html" class=" active btn">Adventure/Trip Activities</a></li>
+            <li><a href="river-guide.html" class="btn">River Guide </a></li>
+            <li><a href="contact.html" class="btn">Contact</a></li>
+            <li><a href="reservation.html" class="btn">Reservation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="reservation container">
+            <h2> Adventure Summarize</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sacajawea Interpretive</th>
+                        <th>Scenic Byway</th>
+                        <th>Salmon River Rafting</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1 day</td>
+                        <td>4 days</td>
+                        <td>Full day</td>
+
+                    </tr>
+                    <tr>
+                        <td>None(Touristic)</td>
+                        <td>None(Touristic)</td>
+                        <td>Intermediate</td>
+
+                    </tr>
+                    <tr>
+                        <td>$40</td>
+                        <td>$50</td>
+                        <td>$60</td>
+                    </tr>
+                </tbody>
+            </table>
+            <section class="form">
+                <h2>Reservation Form</h2>
+                <div class="contact">
+                    <div class="names">
+                        <div class="contact-form">
+                            <label for="fname">Full name:</label>
+                            <input type="text" id="fname" name="fname" class="form-control"><br>
+                        </div>
+     
+                        <div class="contact-form">
+                            <label for="email">Enter your email:</label>
+                            <input type="email" id="email" name="email" class="form-control"><br />
+                        </div>
+    
+                        <div class="contact-form">
+                            <label for="phone">Enter a phone number:</label><br><br>
+                            <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+                        </div>
+                        <div class="contact-form">
+                            <label for="phone">Adventure selection</label><br><br>
+                            <select name="region">
+                                <option value="none" selected="" disabled="">Select an Adventure ...</option>
+                                <option value="Sacajawea">Sacajawea Interpretive	</option>
+                                <option value="ScenicByway">Scenic Byway</option>
+                                <option value="Rafting">Rafting</option>
+                            </select>
+                        </div>
+                        <div class="contact-form">
+                            <label for="phone">Adventure selection</label><br><br>
+                            <input type="date" name="adventureselect" id="adventureselect">
+                        </div>
+                        <div class="contact-form">
+                            <label for="email">Please add any question/comment here:</label>
+                            <textarea id="w3mission" rows="4" cols="40" class="form-control">
+    
+                        </textarea>
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit">
+                </div>
+    
+    
+            </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            Every day , All day at <a href="https://goo.gl/maps/KUhX5FWxFvBgkfof6">1000 S Main St., Riggins, ID</a>
+
+        </p>
+
+    </footer>
+    <script src="js/weather.js"></script>
+</body>
+
+</html>

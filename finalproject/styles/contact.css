@@ -10,12 +10,12 @@ label{
 
 .contact{
     padding: 1em;
+    margin: 0 auto;
 }
 .form{
     background-color: #3fd2c7;
 }
-.form-control {
-
+.form-control, select  {
     width: 300px;
     text-align: left;
     margin: 0 auto;
@@ -67,5 +67,8 @@ label{
     .iframe{
         width: 400px;
         height: 400px;
+    }
+    .contact{
+       width: 400px;
     }
 }
